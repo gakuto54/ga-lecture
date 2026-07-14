@@ -12,10 +12,10 @@ jobs:
         run: echo "やあ！"
 
       - name: Show datetime
-        run: echo "実行日時: $(date)"
+        run: echo "実行日時:$(date)"
 
       - name: Show branch ref
-        run: echo "ブランチ名 (github.ref): ${{ github.ref }}"
+        run: echo "ブランチ名 (github.ref):${{ github.ref }}"
 
       - name: Show actor
-        run: echo "実行者: ${{ github.actor }}"
+        run: echo "実行者:${{ github.actor }}"

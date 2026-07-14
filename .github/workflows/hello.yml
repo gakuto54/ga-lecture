@@ -1,7 +1,9 @@
-name: Hello workflow 
-on: #以下のイベントでワークフローがトリガーされる
+name: Hello workflow
+
+on: # 以下のイベントでワークフローがトリガーされる
   push:
   workflow_dispatch:
+
 jobs:
   hello:
     runs-on: ubuntu-latest

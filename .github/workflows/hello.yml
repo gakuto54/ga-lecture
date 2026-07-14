@@ -1,6 +1,6 @@
 name: Hello workflow
 
-on: # 以下のイベントでワークフローがトリガーされる
+on:
   push:
   workflow_dispatch:
 
